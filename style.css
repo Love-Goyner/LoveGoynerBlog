@@ -604,17 +604,24 @@ body{
     .news-right
     {
         background-color: var(--light-gray);
-        width:79.3%;
+        width:29.3%;
     }
     .news-left
     {
-        width:100%;
+        width:50%;
         height:60vh;
     }
-
+    
     .newsletter-container
     {
         width:620px;
+    }
+
+    .news-tittle{
+        font-size:1.5rem;
+    }
+    .news-desc{
+        font-size:0.92rem;
     }
 }
 
@@ -734,7 +741,7 @@ ul{
 
 @media screen and (max-width:850px) {
     .footer-top{
-        padding-left: 1rem;
+        padding-right: 15rem;
     }
     .footer-grid{
         grid-template-columns: repeat(2,1fr);
